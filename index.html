@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"> 
+  <link href="css/navFilter.css" rel="stylesheet">
+ 
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!-- Jumbotron -->        
+    <div class="jumbotron text-center">
+                <h1>Performing Arts Academy</h1> 
+                <p>Course Catalog</p> 
+              </div>
+
+        <div class="wrapper">
+ <!-- Sidebar Holder -->
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <h3>Filter Menu</h3>
+                    </div>
+        
+                    <ul class="list-unstyled components" id="filterMenu">
+                        <li>
+                            <a id="showAll" data-tags="Show All" href="#">Show All</a>
+                        </li>
+                        <li>
+                            <a href="#studios" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Studios</a>
+                            <ul class="collapse list-unstyled" id="studios">
+                                <li>
+                                    <a data-tags="Studio Discovery" href="#">Studio Discovery</a>
+                                </li>
+                                <li>
+                                    <a data-tags="Studio 1" href="#">Studio 1</a>
+                                </li>
+                                <li>
+                                    <a data-tags="Studio 2" href="#">Studio 2</a>
+                                </li>
+                                <li>
+                                    <a data-tags="Studio 3" href="#">Studio 3</a>
+                                </li>
+                                <li>
+                                    <a data-tags="Studio 4" href="#">Studio 4</a>
+                                </li>
+                                <li>
+                                    <a data-tags="Behind the Scenes" href="#">Behind the Scenes</a>
+                                </li>
+                                <li>
+                                    <a data-tags="Adult Studio" href="#">Adult Studio</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                                <a href="#grades" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Grades</a>
+                                <ul class="collapse list-unstyled" id="grades">
+                                    <li>
+                                        <a data-tags="Ages 3 - K" href="#">Ages 3 - K</a>
+                                    </li>
+                                    <li>
+                                        <a data-tags="Grades K - 2nd" href="#">Grades K - 2nd</a>
+                                    </li>
+                                    <li>
+                                        <a data-tags="Grades 2nd - 6th" href="#">Grades 2nd - 6th</a>
+                                    </li>
+                                    <li>
+                                        <a data-tags="Grades 7th - 12th" href="#">Grades 7th - 12th</a>
+                                    </li>
+                                    <li>
+                                        <a data-tags="Grades Adult" href="#">Adult</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                    <a href="#catagories" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Disciplines</a>
+                                    <ul class="collapse list-unstyled" id="catagories">
+                                        <li>
+                                            <a data-tags="Dance Classes" href="#">Dance Classes</a>
+                                        </li>
+                                        <li>
+                                            <a data-tags="Voice Classes" href="#">Vocie Classes</a>
+                                        </li>
+                                        <li>
+                                            <a data-tags="Acting Classes" href="#">Acting Classes</a>
+                                        </li>
+                                        <li>
+                                            <a data-tags="Improv Classes" href="#">Improv Classes</a>
+                                        </li>
+                                        <li>
+                                            <a data-tags="Technical Theatre Classes" href="#">Technical Theatre Classes</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                    </ul>
+                </nav>
+        
+                <!-- Page Content Holder -->
+                <div  id="content">
+        
+                    <nav id="filterCont" class="navbar navbar-expand-lg ">
+                        <div class="container-fluid">
+                            
+                            <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                            <p id="navText">Fliter Menu</p>
+                            <!--<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-align-justify"></i>
+                            </button>
+        
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="nav navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Page</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Page</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Page</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Page</a>
+                                    </li>
+                                </ul>
+                            </div>-->
+                        </div>
+                    </nav>
+
+<!-- Container  -->
+<div class="container" >
+    
+<!--Class Names and discriptions-->
+<!--Hidden Section Titiles-->
+<h2 class="sectionTitle hidden" data-tags="Studio Discovery">Studio Discovery</h2>
+<h2 class="sectionTitle hidden" data-tags="Studio 1">Studio 1</h2>
+<h2 class="sectionTitle hidden" data-tags="Studio 2">Studio 2</h2>
+<h2 class="sectionTitle hidden" data-tags="Studio 3">Studio 3</h2>
+<h2 class="sectionTitle hidden" data-tags="Studio 4">Studio 4</h2>
+<h2 class="sectionTitle hidden" data-tags="Behind the Scenes">Behind the Scenes</h2>
+<h2 class="sectionTitle hidden" data-tags="Adult Studio">Adult Studio</h2>
+<h2 class="sectionTitle hidden" data-tags="Ages 3 - K">Ages 3 - K</h2>
+<h2 class="sectionTitle hidden" data-tags="Grades K - 2nd">Grades K - 2nd</h2>
+<h2 class="sectionTitle hidden" data-tags="Grades 2nd - 6th">Grades 2nd - 6th</h2>
+<h2 class="sectionTitle hidden" data-tags="Grades 7th - 12th">Grades 7th - 12th</h2>
+<h2 class="sectionTitle hidden" data-tags="Adult">Adult</h2>
+<!--Acting Classes-->
+<h2 class="sectionTitle" data-tags="Acting Classes">Acting Classes</h2>
+ <!--Theatre In A Trunk - Crazy Characters -->
+<div class="accordion" id="classes">
+        <div class="card" data-tags="Studio Discovery,Ages 3 - K,Acting Classes">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0" id="courseClass" >
+              <button class="btn btn-link courseClassButton" type="button"  data-toggle="collapse" data-target="#crazyCharacters" aria-expanded="true" aria-controls="collapseOne">
+                Theatre In A Trunk - Crazy Characters
+              </button>
+            </h5>
+          </div>     
+          <div id="crazyCharacters" class="collapse" aria-labelledby="headingOne" data-parent="#classes">
+            <div class="card-body">
+                    <p>(Studio Discovery)</p>      
+                    <p>Create your own zany and crazy characters in this fun-filled acting class!  Students learn acting fundamentals and work with their teacher to write a script!  Students play acting games, learn the parts of the stage, parts of a story and early character development fundamentals.  These building blocks are wonderful tools for work on the stage.</p>
+            </div>
+          </div>
+        </div>
+<!--Theatre In A Trunk - sues --> 
+        <div class="card" data-tags="Studio Discovery,Ages 3 - K,Acting Classes">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#sues" aria-expanded="false" aria-controls="collapseTwo">
+                    Theatre in a Trunk - Sues!
+              </button>
+            </h5>
+          </div>
+          <div id="sues" class="collapse" aria-labelledby="headingTwo" data-parent="#classes">
+            <div class="card-body">
+                    <p>(Studio Discovery)</p>     
+                    <p>Fantastical fun awaits in the world of Seuss!  In this class you will learn acting fundamentals through the storylines and character development of your favorite Dr Seuss stories such a Yertle the Turtle, Horton Hears a Who, The Cat in the Hat and more!  Students will play acting games, learn the parts of the stage, parts of a story and early character development fundamentals.  These building blocks are wonderful tools for work on the stage.</p>
+            </div>
+          </div>
+        </div>
+<!--Theatre In A Trunk - sues --> 
+        <div class="card" data-tags="Studio Discovery,Ages 3 - K,Acting Classes">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#fairyTales" aria-expanded="false" aria-controls="collapseThree">
+                    Theatre in a Trunk - Fairy Tales!
+              </button>
+            </h5>
+          </div>
+          <div id="fairyTales" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+            <div class="card-body">
+                <p>(Studio Discovery)</p>     
+                <p>Enter a land of enchantment while playing as some of your favorite fairy tale characters! In this class you will learn acting fundamentals through the storylines and character development of fairy tales such as Aladdin, Cinderella, Beauty and the Beast, Peter Pan, and more! Students will play acting games, learn parts of the stage, parts of a story, and early character development fundamentals. These building blocks are wonderful tools for work on the stage.</p>
+            </div>
+          </div>
+        </div>
+<!--Theatre In A Trunk - Pirates Plays --> 
+        <div class="card" data-tags="Studio Discovery,Ages 3 - K,Acting Classes">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#piratesPlay" aria-expanded="false" aria-controls="collapseThree">
+                            Theatre in a Trunk - Pirate Play
+                    </button>
+                </h5>
+             </div>
+            <div id="piratesPlay" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                <div class="card-body">
+                    <p>(Studio Discovery)</p>    
+                    <p>Arrr you ready maties? We will explore character creation and storytelling through the scope of a pirate’s life! Come aboard for the fun!</p>
+                </div>
+            </div>
+        </div>
+<!--Theatre In A Trunk - Welcome to the Jungle --> 
+        <div class="card" data-tags="Studio Discovery,Ages 3 - K,Acting Classes">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#welcomeJungle" aria-expanded="false" aria-controls="collapseThree">
+                            Theatre in a Trunk Presents: Welcome to the Jungle
+                    </button>
+                </h5>
+            </div>
+            <div id="welcomeJungle" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                <div class="card-body">
+                        <p>(Studio Discovery)</p>
+                        <p>A mini-musical based on Aesop's fable "the Lion and the Mouse" for Unison and 2-part Vocies
+                        By Andy Beck and Brain Fisher</p>
+                        <p>In this class, there is a fun, game-filled exploration of acting fundamentals, stage directions, and character development. The children apply their skills in hands-on learning through the making of a mini-musical, complete with lines, singing and dancing!In addition to discovering and artistically using the items in the show trunk, the students will also create crafts of their own in support of the musical. These may include props, costume-related pieces such as masks, and environmental support, such as drawings for scenery. </p>
+                        <p> On the final day of class, we invite the young peoples' family and friends to join us for a sharing of the musical in a supportive classroom setting, complete with story-necessary props and costume pieces. The sharing will be kept simple, with the focus on the students and their creativity. </p>
+                        <p>In addition, the students will participate in the all-class Shareformance at the end of the Fall classes, in which they will perform an ensemble number from the musical!</p>
+                </div>
+            </div>
+        </div>
+<!-- Dance Classes -->
+<h2 class="sectionTitle" data-tags="Dance Classes">Dance Classes</h2>
+<!--Grove and Dance --> 
+        <div class="card" data-tags="Studio Discovery,Ages 3 - K,Dance Classes">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#grooveDance" aria-expanded="false" aria-controls="collapseThree">
+                            Groovin’ Dance
+                    </button>
+                </h5>
+            </div>
+            <div id="grooveDance" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                <div class="card-body">
+                    <p>(Studio Discovery)</p>      
+                    <p>This class is designed for the beginning stages of movement with the goal to spark their imagination. Children at this age level will receive a lot of encouragement and personal attention to develop the discipline needed to unveil their hidden talents.</p>
+                </div>
+            </div>
+        </div>
+<!--Hip Hop --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#hipHop" aria-expanded="false" aria-controls="collapseThree">
+                                Hip Hop
+                        </button>
+                    </h5>
+                </div>
+                <div id="hipHop" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Hip hop is an urban street dance style that infuses breaking, popping, locking, b-boy, funk and jazz. This high energy class is for beginners.</p>
+                    </div>
+                </div>
+            </div>
+<!--Hip Hop II --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#hipHopII" aria-expanded="false" aria-controls="collapseThree">
+                                Hip Hop II
+                        </button>
+                    </h5>
+                </div>
+                <div id="hipHopII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Hip hop is an urban street dance style that infuses breaking, popping, locking, b-boy, funk and jazz. This high energy class is for intermediate dancers. </p>
+                               <p>(Pre-Req: Hip Hop I)</p>
+                                
+                    </div>
+                </div>
+            </div>
+<!--Hip Hop III --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#hipHopIII" aria-expanded="false" aria-controls="collapseThree">
+                                Hip Hop III
+                        </button>
+                    </h5>
+                </div>
+                <div id="hipHopIII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>A high-energy class that infuses the latest styles of street dancing, breaking, popping, and locking.
+                                
+                                 </p>
+                            <p>(Pre-Req: Hip Hop II)</p>
+                                
+                    </div>
+                </div>
+            </div>
+<!--tap --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#tap" aria-expanded="false" aria-controls="collapseThree">
+                                Tap
+                        </button>
+                    </h5>
+                </div>
+                <div id="tap" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Tap is designed for the development of basic tap technique and terminology highlighting the importance of rhythm and sound. The class will focus on classic Broadway style tap dance. No prior tap experience is required. We will work to create a percussive instrument out of our feet.</p>
+                        <p>Purchase of tap shoes is required prior to start of class. Preferably a black tied tap shoe that can be picked up at any dance shoe store.</p>
+                                
+                    </div>
+                </div>
+            </div>
+<!--tap II --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#tapII" aria-expanded="false" aria-controls="collapseThree">
+                                Tap II
+                        </button>
+                    </h5>
+                </div>
+                <div id="tapII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Tap II is an upper level tap class for those who completed Tap I. Tap is designed to develop rhythm, musicality, and coordination. </p>
+                        <p>(Pre-Req: Tap I) Student will require tap shoes. For more information on this or where to buy them please contact our Production and Site Manager at Producer@stlukespaa.org</p>
+                                
+                    </div>
+                </div>
+            </div>
+<!--tap III --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#tapIII" aria-expanded="false" aria-controls="collapseThree">
+                                Tap III
+                        </button>
+                    </h5>
+                </div>
+                <div id="tapIII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>This class, open to students who have completed Tap II or have a placement audition with our dance director. Tap III is designed for the development of intermediate to advance tap technique and terminology highlighting the importance of rhythm and sound. The class will focus on classic Broadway style tap dance and begin exploration of rhythm tap style. </p>
+                        <p>(Pre-Req: Tap II) Purchase of tap shoes is required prior to start of class. Preferably a black tied tap shoe that can be picked up at any dance shoe store.</p>        
+                    </div>
+                </div>
+            </div>
+<!--tap IV --> 
+        <div class="card" data-tags="Studio 4,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#tapIV" aria-expanded="false" aria-controls="collapseThree">
+                                Tap IV
+                        </button>
+                    </h5>
+                </div>
+                <div id="tapIV" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 4)</p>      
+                        <p>NEEDS DISCRIPTION</p>
+                        <p>(Pre-Req: Teacher Placement) Purchase of tap shoes is required prior to start of class. Preferably a black tied tap shoe that can be picked up at any dance shoe store.</p>        
+                    </div>
+                </div>
+            </div>
+<!--Ballet --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#ballet" aria-expanded="false" aria-controls="collapseThree">
+                                Ballet
+                        </button>
+                    </h5>
+                </div>
+                <div id="ballet" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>NEEDS DISCRIPTION</p>
+                        <p>Purchase of ballet shoes is required prior to start of class.</p>        
+                    </div>
+                </div>
+            </div>
+<!--Musical Theatre Dance --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#musicalTheatreDance" aria-expanded="false" aria-controls="collapseThree">
+                                Musical Theatre Dance
+                        </button>
+                    </h5>
+                </div>
+                <div id="musicalTheatreDance" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Dance to the musical theatre songs you love while developing music theater dance vocabulary, style, and expression. Students will practice basic steps used in theatre, body coordination, and fundamentals of flexibility and strength. These skills are helpful for theatrical performances and auditions.</p>    
+                    </div>
+                </div>
+            </div>
+<!--Musical Theater Dance 2 --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#musicalTheatreDanceII" aria-expanded="false" aria-controls="collapseThree">
+                                Musical Theater Dance II
+                        </button>
+                    </h5>
+                </div>
+                <div id="musicalTheatreDanceII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>This is an advanced musical theater dance class for those who are ready to learn more complex styles, technique, and picking up choreography at a faster pace. </p>
+                        <p>(Pre-Req: Musical Theatre)</p>        
+                    </div>
+                </div>
+            </div>
+<!--Dance A Map --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#danceMap" aria-expanded="false" aria-controls="collapseThree">
+                                Dance A Map
+                        </button>
+                    </h5>
+                </div>
+                <div id="danceMap" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Explore your movement imagination and create a group piece of choreography using creativity as a road map and guidance from Ms. Kate. </p>
+                        <p>(Pre-Req: Musical Theatre Dance)</p>        
+                    </div>
+                </div>
+            </div>
+<!--Conquering the Dance Audition Prerequisites --> 
+        <div class="card" data-tags="Studio 2,Studio 3,Grades 2nd - 6th,Grades 7th - 12th,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#conquering" aria-expanded="false" aria-controls="collapseThree">
+                                Conquering the Dance Audition Prerequisites
+                        </button>
+                    </h5>
+                </div>
+                <div id="conquering" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Open to all, this class will place emphasis on picking up combos of different styles. Students will learn a new audition combo every class and develop skills to perform their best at a musical theater dance audition.</p>
+                        <p>(Pre-Req: Musical Theatre Dance)</p>        
+                    </div>
+                </div>
+            </div>
+<!--Adult Tap --> 
+        <div class="card" data-tags="Adult Studio,Adult,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#adultTap" aria-expanded="false" aria-controls="collapseThree">
+                                Adult Tap
+                        </button>
+                    </h5>
+                </div>
+                <div id="adultTap" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Adult Studio)</p>      
+                        <p>Tap Basics is designed for the development of basic tap technique and terminology highlighting the importance of rhythm and sound. The class will focus on classic Broadway style tap dance. No prior tap experience is required. We will work to create a percussive instrument out of our feet.</p>
+                        <p>Purchase of tap shoes is required prior to start of class. Preferably a black tied tap shoe that can be picked up at any dance shoe store.</p>        
+                    </div>
+                </div>
+            </div>
+<!--Adult Tap II --> 
+        <div class="card" data-tags="Adult Studio,Adult,Dance Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#adultTapII" aria-expanded="false" aria-controls="collapseThree">
+                                Adult Tap II
+                        </button>
+                    </h5>
+                </div>
+                <div id="adultTapII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Adult Studio)</p>      
+                        <p>Tap Intermediate is an upper level tap class for those who completed Tap Basics. Tap Intermediate is designed to further develop rhythm, musicality, and coordination.</p>
+                        <p>(Pre-Reg:Adult Tap I) Purchase of tap shoes is required prior to start of class. Preferably a black tied tap shoe that can be picked up at any dance shoe store.</p>        
+                    </div>
+                </div>
+            </div>
+<!--Vocie Classes-->
+<h2 class="sectionTitle" data-tags="Voice Classes">Voice Classes</h2>
+<!--Sing &amp; Play --> 
+        <div class="card" data-tags="Studio Discovery, Ages 3 - K,Voice Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#singPlay" aria-expanded="false" aria-controls="collapseThree">
+                                Sing &amp; Play
+                        </button>
+                    </h5>
+                </div>
+                <div id="singPlay" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio Discovery)</p>      
+                        <p>Music is a powerful and playful tool. Learn how to play instruments and sing, creating music with your friends! This class will be more fun than you can shake a shaker at!</p>
+                    </div>
+                </div>
+            </div>
+<!--Vocie (Studio 3) --> 
+        <div class="card" data-tags="Studio 3,Grades 7th - 12th,Voice Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#voiceIII" aria-expanded="false" aria-controls="collapseThree">
+                                Voice
+                        </button>
+                    </h5>
+                </div>
+                <div id="voiceIII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 3)</p>      
+                        <p>In Voice class, students work on developing the vocabulary of music as it is used in the art and practice of musical theatre. From foundational principles, to using music for storytelling and character journey, the emphasis is on practical application of music on the stage as a part of a larger theatrical narrative. Practice may include short solos similar to a monologue in music form, duets, and ensemble pieces. Homework of music review and preparation may be asked.</p>       
+                    </div>
+                </div>
+            </div>
+<!--Vocie (Studio 2) --> 
+        <div class="card" data-tags="Studio 2,Grades 2nd - 6th,Voice Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#voiceII" aria-expanded="false" aria-controls="collapseThree">
+                                Voice
+                        </button>
+                    </h5>
+                </div>
+                <div id="voiceII" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2)</p>      
+                        <p>In Voice class, students work on developing the vocabulary of music as it is used in the art and practice of musical theatre. From foundational principles, to using music for storytelling and character journey, the emphasis is on practical application of music on the stage as a part of a larger theatrical narrative. Practice may include short solos similar to a monologue in music form, duets, and ensemble pieces. Homework of music review and preparation may be asked.</p>       
+                    </div>
+                </div>
+            </div>
+<!--Glee --> 
+        <div class="card" data-tags="Studio 2,Grades 2nd - 6th,Studio 3, Grades 7th - 12th,Voice Classes">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#glee" aria-expanded="false" aria-controls="collapseThree">
+                                Glee
+                        </button>
+                    </h5>
+                </div>
+                <div id="glee" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+                    <div class="card-body">
+                        <p>(Studio 2 &amp; 3)</p>      
+                        <p>Learn the art of singing in a small ensemble by blending harmonies and moving to complex rhythms. Explore the unique and advanced skills of acapella style singing. Create the sound you have always dreamed of creating and show off at our Shareformance!</p>       
+                    </div>
+                </div>
+            </div>
+<!--Audition Basics - Voice --> 
+<div class="card" data-tags="Studio 2,Grades 2nd - 6th,Studio 3, Grades 7th - 12th,Voice Classes">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#auditionBasics" aria-expanded="false" aria-controls="collapseThree">
+                        Audition Basics - Voice
+                </button>
+            </h5>
+        </div>
+        <div id="auditionBasics" class="collapse" aria-labelledby="headingThree" data-parent="#classes">
+            <div class="card-body">
+                <p>(Studio 2 &amp; 3)</p>      
+                <p>The foundation for any great Musical Theatre audition is a great song. Each voice and person is unique. This class will help you identify the right song choice(s) for you and develop your performance to be “audition ready!”</p>       
+            </div>
+        </div>
+    </div>
+
+
+ <!-- Accordion -->   
+      </div>  
+<!-- Container -->
+    </div>
+
+    
+    
+<footer class="container-fluid text-center">
+
+</footer>
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.0.0.js"></script>
+<script src="js/filter.js" ></script>
+<script src="js/navFilter.js"></script>
+</body>
+</html>

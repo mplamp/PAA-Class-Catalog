@@ -1,0 +1,31 @@
+/* Jumbotron */
+.jumbotron, .jumbotron p{
+    background-color:#660099;
+    color:white;
+}
+/* Section Titles */
+h2.hidden{
+}
+
+/*card*/
+button.btn-link, 
+button.btn-link:active, 
+button.btn-link:visited, 
+button.btn-link:hover{
+    color:white;
+}
+
+.card{
+ border:1px solid black;
+background-color: white;
+margin:0px;
+  
+}
+.card-header{
+    padding:0.2rem 1rem;
+    background-color:#660099;
+}
+.card-body p, .card-body{
+    color:black;
+    background-color: #CCCCCC;
+}
